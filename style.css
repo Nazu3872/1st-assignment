@@ -308,3 +308,42 @@ body{
 
 /* Secure Your Spot (Pricing) Section End */
 
+
+/* Footer Section Start */
+.footer{
+    background:#101d2d;
+    padding:35px 0;
+}
+
+.footer-container{
+    width:90%;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.footer p{
+    color:#8b94a7;
+    font-size:14px;
+}
+
+.footer-menu{
+    display:flex;
+    gap:30px;
+}
+
+.footer-menu a{
+    text-decoration:none;
+    color:#8b94a7;
+    font-size:14px;
+    transition:.3s;
+}
+
+.footer-menu a:hover{
+    color:#ffffff;
+}
+/* Footer Section End */
+
+
